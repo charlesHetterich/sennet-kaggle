@@ -1,0 +1,1 @@
+- 3D mode is used in comp when calculating surface dice score (ref: https://www.kaggle.com/competitions/blood-vessel-segmentation/discussion/461879)

@@ -1,0 +1,44 @@
+path = "/root/data/train/kidney_2/images/" # the path to the directory that contains the tiff files
+file_list = os.listdir(path) # get the list of file names in the directory
+lbls = "/root/data/train/kidney_2/labels/"
+lbl_list = os.listdir(lbls)
+
+thr = 75
+
+inter_new_list = [] # a list to store the inter_new values for each file and label
+FP_list = [] # a list to store the FP values for each file and label
+FN_list = [] # a list to store the FN values for each file and label
+dice_list = []
+
+for i in range(len(file_list)): 
+    img = tiff.imread(path + file_list[i]) 
+    lbl = tiff.imread(lbls + lbl_list[i]) 
+    gen = output[i,:,:] # works
+
+    #gen = gen.astype(np.float32) 
+    #gen = tc.from_numpy(gen)
+    lbl = tc.from_numpy(lbl)
+    gen = tc.from_numpy(gen)
+    gen_thr = (gen > thr).int()
+    lbl_thr = (lbl > thr).int()
+    inter_n = (lbl_thr*gen_thr).sum(dim=(-1,-2))
+    den_n = lbl_thr.sum(dim=(-1,-2)) + gen_thr.sum(dim=(-1,-2))
+    dice_n = ((2*inter_n+0.001)/(den_n+0.001)).mean()
+
+    test = gen_thr - lbl_thr
+    FP = np.count_nonzero(test > 0)
+    FP_list.append(FP) # append the FP value to the list
+
+    test_FN = lbl_thr - gen_thr
+    FN = np.count_nonzero(test_FN > 0)
+    FN_list.append(FN) # append the FN value to the list
+
+    inter_new = (np.count_nonzero(gen_thr) - (FN + FP))
+    inter_new_list.append(inter_new) # append the inter_new value to the list'''
+
+    dice_list.append(dice_n)
+
+
+print(inter_new_list) # print the list of inter_new values
+print(FP_list) # print the list of FP values
+print(FN_list) # print the list of FN values

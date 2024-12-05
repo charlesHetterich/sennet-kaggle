@@ -1,0 +1,71 @@
+                            # Voxel-Connectivity #
+
+1. AirwayNet: A Voxel-Connectivity Aware Approach for Accurate Airway Segmentation Using CNNs
+    - https://arxiv.org/abs/1907.06852 
+
+2. A CT-Based Automated Algorithm for Airway Segmentation Using Freeze-and-Grow Propagation and Deep Learning
+    - https://pubmed.ncbi.nlm.nih.gov/33021934/ 
+
+3. Learning Tubule-Sensitive CNNs for Pulmonary Airway and Artery-Vein Segmentation in CT
+    - https://arxiv.org/pdf/2012.05767.pdf 
+
+4. Automatic Airway Segmentation from CT using Robust and Efficient 3-D CNNs
+    - https://www.nature.com/articles/s41598-021-95364-1 
+
+5. Ori-Net: Orientation-guided Neural Network for Automated Coronary Arteries Segmentation
+    - https://www.sciencedirect.com/science/article/pii/S0957417423024077 
+
+6. Segment 2D and 3D filaments by learning structured and contextual features
+    - https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7725981 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+                            # Flood Filling Networks #
+
+1. High-precision automated reconstruction of neurons with flood-filling networks
+    - https://www.nature.com/articles/s41592-018-0049-4 
+    - https://github.com/google/ffn 
+    - https://www.youtube.com/watch?v=YARQF95OEJA&ab_channel=KaranKalra 
+    - https://github.com/funkelab/lsd 
+
+2. Local Shape Descriptors for Neuron Segmentation
+    - https://www.nature.com/articles/s41592-022-01711-z 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+                            # Vessel Tracking #
+
+1. Deep Vessel Tracking: A Generalized Probabilistic Approach via Deep Learning
+    - https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7493520 
+
+2. Multi-Resolution 3D Convolutional Neural Networks for Automatic Centerline Extraction in Cardiac CT Angiography Scans
+
+3. Dense Dilated Network with Probability Regularized Walk for Vessel Detection
+    - https://arxiv.org/pdf/1910.12010.pdf 
+
+4. Annotation-Free Cardiac Vessel Segmentation via Knowledge Transfer from Retinal Images
+    - https://link.springer.com/chapter/10.1007/978-3-030-32245-8_79 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+                            # Renal Vessels #
+        
+1. Meta grayscale adaptive network for 3D integrated renal structures segmentation
+    - https://www.sciencedirect.com/science/article/pii/S1361841521001018 
+
+2. Dense Biased Networks with Deep Priori Anatomy and hard region adaptation: Semi-supervised learning for fine renal artery segmentation
+    - https://www.sciencedirect.com/science/article/pii/S1361841520300864 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+                            # Segment Anything #
+
+1. Segmenta Anything Model for Medical Images:
+    - https://www.sciencedirect.com/science/article/pii/S1361841523003213
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+                            # DICE Calculations #
+
+1. cIDICE - A Novel Topology-Preserving Loss Function for Tubular Structure Segmentation
+    - https://openaccess.thecvf.com/content/CVPR2021/html/Shit_clDice_-_A_Novel_Topology-Preserving_Loss_Function_for_Tubular_Structure_CVPR_2021_paper.html  

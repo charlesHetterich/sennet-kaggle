@@ -1,0 +1,44 @@
+                            # 2D Datasets #
+
+1. DRIVE: Retinal Vessel Segmentation:
+    - https://www.kaggle.com/datasets/srinjoybhuiya/drive-retinal-vessel-segmentation-pixelwise 
+    - https://academictorrents.com/details/062dc18f55b086c76c718ac88f98972789b3c04c 
+
+2. STARE: Retinal Vessel Segmentation
+    - http://cecas.clemson.edu/~ahoover/stare/ 
+
+3. CHASE-DB1: Retinal Vessel Segmentation
+    -  https://blogs.kingston.ac.uk/retinal/chasedb1/ 
+
+4. HRF: Retinal Vessel Segmentation
+    - https://blogs.kingston.ac.uk/retinal/chasedb1/ 
+
+5. PRIME-FP20: Retinal Vessel Segmentation
+    - https://ieee-dataport.org/open-access/prime-fp20-ultra-widefield-fundus-photography-vessel-segmentation-dataset 
+
+6. CASDQEF: Coronary Artery Stenosis Detection:
+    - http://coronary.bigr.nl/stenoses 
+
+7. CAT08: Coronary Centerline Extraction:
+    - http://coronary.bigr.nl/centerlines 
+
+8. ASOCA: Coronary Segmentation:
+    - https://asoca.grand-challenge.org/ 
+
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+                            # 3D Datasets #
+
+1. VESSEL12: Lung Vessel Segmentation:
+    - https://vessel12.grand-challenge.org/ 
+
+2. SLIVER07: Liver Segmentation:
+    - https://sliver07.grand-challenge.org/ 
+
+3. 3D-IRCADb: Liver Vessel Segmentation:
+    - https://www.ircad.fr/research/3d-ircadb-01/ 
+
+
+---------------------------------------------------------------------------------------------------------------------------

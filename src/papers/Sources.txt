@@ -1,0 +1,103 @@
+                            # Kaggle Competition Stuff #
+
+COMPETITION DATA PAPER: https://www.nature.com/articles/s41592-021-01317-x
+
+    - https://www.kaggle.com/competitions/blood-vessel-segmentation/overview 
+    - https://www.kaggle.com/code/aniketkolte04/sennet-hoa-seg-pytorch-attention-gated-unet 
+    - https://www.kaggle.com/competitions/hubmap-organ-segmentation/discussion/354683 
+    - https://arxiv.org/ftp/arxiv/papers/2305/2305.02148.pdf 
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+                                *** Github Repos ****
+
+# BronchiNet:
+    - https://github.com/antonioguj/bronchinet 
+
+# Lung Vessel Segmentation Using Graph Cuts
+    - https://github.com/Zhiwei-Zhai/Lung-Vessel-Segmentation-Using-Graph-cuts 
+
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+                                *** Review Papers ***
+
+# Human Treelike Tubular Structure Segmentation: A Comprehensive Review and Future Perspectives #
+    - https://www.sciencedirect.com/science/article/pii/S0010482522009490#b103 
+
+# Blood Vessel Segmentation Algorithms - Review of Methods, Datasets, and Evaluation Metrics #
+    - https://www.sciencedirect.com/science/article/pii/S0169260717313421?ref=pdf_download&fr=RR-2&rr=8378fd5f0f7a42c8#bib0158 
+
+# Deep Neural Architectures for Medical Image Semantic Segmentation: Review #
+    - https://ieeexplore.ieee.org/abstract/document/9447006 
+
+# Computational Methods for Liver Vessel Segmentations in Medical Imaging: A Review #
+    - https://pubmed.ncbi.nlm.nih.gov/33809361/ 
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+                                  *** UNets ***
+
+
+# Spatial Attention U-Net for Retinal Vessel Segmentation #
+    - https://ieeexplore.ieee.org/abstract/document/9413346 
+# Attention U-Net: Learning Where to Look for the Pancreas
+    - https://arxiv.org/abs/1804.03999 
+# UNet++: A Nested U-Net Architecture for Medical Image Segmentation # 
+    - https://link.springer.com/chapter/10.1007/978-3-030-00889-5_1 
+# Bridge-Net: Context-Involved U-net with patch-based loss weight mapping #
+    - https://www.sciencedirect.com/science/article/pii/S0957417422000240 
+# Robust Liver Vessel Extraction using 3D U-Net with Variant Dice Loss Function #
+    - https://www.sciencedirect.com/science/article/pii/S0010482518302385 
+# A new deep learning method for blood vessel segmentation in retinal images based on convolutional kernels #
+    - https://www.sciencedirect.com/science/article/pii/S0169260721001565 
+# Automatic Airway Segmentation from Computed Tomography using Robust and Efficient 3-D Convolutional # 
+    - https://www.nature.com/articles/s41598-021-95364-1 
+# VesselNet: A deep convolutional neural network with multi pathways for robust hepatic vessel segmentation #
+    - https://pubmed.ncbi.nlm.nih.gov/31220699/ 
+# Automatic Airway Segmentation from Computed Tomography using Robust and efficient 3-d convolutional neural networks #
+    - https://www.nature.com/articles/s41598-021-95364-1#code-availability 
+# AirwayNet: A Voxel-Connectivity Aware Approach for Accurate Airway Segmentation Using CNNs #
+    - https://link.springer.com/chapter/10.1007/978-3-030-32226-7_24 
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+                              *** Hybrid Methods ***
+
+# Fast and Efficient Retinal Blood Vessel Segmentation method based on deep learning network #
+    - https://www.sciencedirect.com/science/article/pii/S0895611121000501 
+# VSSC Net: Vessel Specific Skip chain convolutional network for blood vessel segmentation #
+    - https://www.sciencedirect.com/science/article/pii/S0169260720316023 
+# Adaptive Kalman Snake for Semi-Autonomous 3D Vessel Tracking #
+    - https://www.sciencedirect.com/science/article/pii/S0169260715001753#sec0005 
+# CT-based Automated Algorithms for Airway Segmentation using Freeze-and-Grow Propagation and Deep Learning
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7772272/ 
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+                                *** PreProcessing ***
+
+# Alleviating Class-Wise Gradient Imbalance for Pulmonary Airway Segmentation 
+    - https://arxiv.org/abs/2011.11952 
+# Segmentation of the Airway Tree from Chest CT Using Tiny Atrous Convolutional network
+    - https://ieeexplore.ieee.org/document/9354836 
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+                                # Youtube Resources # 
+
+    - https://www.youtube.com/watch?v=azM57JuQpQI&list=PLZsOBAyNTZwbR08R959iCvYT3qzhxvGOE 
+

@@ -1,0 +1,17 @@
+tifffile
+albumentations
+matplotlib
+nvitop
+kaggle==1.5.16
+tensorboard
+noise
+tqdm
+monai
+numba
+pandas
+segmentation-models-pytorch
+python-dotenv
+
+# install both of these for compiling models to tensorRT
+# torch torch-tensorrt tensorrt --extra-index-url https://download.pytorch.org/whl/cu118
+# tensorrt --extra-index-url https://pypi.nvidia.com
